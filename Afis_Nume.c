@@ -11,7 +11,7 @@ void lcddata(unsigned char value);
 void MSDelay(unsigned int itime);
 void lcdready();
 
-code unsigned char m1 [] = {"Dobre Eugen-Andrei"};
+code unsigned char m1 [] = {"TEST};
 //Main
 void main(){
     lcdcmd(0x38);
